@@ -18,9 +18,8 @@ Each folder contains my solutions (`.py`) and notes (`.md`) for that topic. I pu
 | 06 | Strings                      | 15       |
 | 07 | Sliding Window & Two Pointers| 12       |
 | 08 | Dynamic Programming          | 55       |
-| 09 | Tries                        | 7        |
-| 10 | Strings (Advanced)           | 9        |
-| 11 | Sorting Techniques           | 7        |
+| 09 | Strings (Advanced)           | 9        |
+| 10 | Sorting Techniques           | 7        |
 
 ---
 
