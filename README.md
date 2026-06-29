@@ -10,7 +10,7 @@ Each folder contains my solutions (`.py`) and notes (`.md`) for that topic. I pu
 
 | # | Topic                         | Problems |
 |---|-------------------------------|----------|
-| 01 | Patterns                     | 22       |
+| 01 | Patterns                     | 5-10     |
 | 02 | Basic Math                   | 7        |
 | 03 | Recursion                    | 9        |
 | 04 | Basic Hashing                | 3        |
