@@ -10,8 +10,10 @@ To solve this:
 2. Then, to find the GCD of these two numbers (`a` and `b`), we can check numbers starting from 1 up to the maximum of `a` and `b`. If a number divides both `a` and `b` without a remainder, we track it as our current GCD. The largest such divisor found by the end of the loop is the GCD.
 
 Example : a= 18, b=24
-Multiples of 18=[1, 2, 3, 6, 9, 18]
-Multiples of 24=[1, 2, 3, 4, 6, 8, 12, 24]
+
+Multiples of 18= `[1, 2, 3, 6, 9, 18] `
+
+Multiples of 24= `[1, 2, 3, 4, 6, 8, 12, 24] `
 
 Greatest among all divisors is 6.
 
