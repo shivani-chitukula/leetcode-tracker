@@ -11,5 +11,6 @@ def isArmstrong(num):
     
     return num==sum
 
-print(isArmstrong(153))
+print(isArmstrong(153)) #true. 1^3+5^3+3^3= 1+125+27=153
+print(isArmstrong(1634)) # true:1^4 + 6^4 + 3^4 + 4^4 = 1 + 1296 + 81 + 256 = 1634
 
