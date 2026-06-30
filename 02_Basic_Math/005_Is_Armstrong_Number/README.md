@@ -12,5 +12,5 @@ An Armstrong number (or Narcissistic number) is a number that is equal to the su
 5. Finally, we check if the computed sum matches the original input.
 
 ## Complexity
-- **Time Complexity:** O($\log_{10}(N)$) where N is the input integer. Counting the digits and extracting them one-by-one both take time proportional to the number of digits in N.
+- **Time Complexity:** O(log<sub>10</sub>(N) ) where N is the input integer. Counting the digits and extracting them one-by-one both take time proportional to the number of digits in N.
 - **Space Complexity:** O(1) as we only use a few extra variables for the computation.
