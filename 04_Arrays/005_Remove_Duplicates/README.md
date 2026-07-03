@@ -29,14 +29,14 @@ To transform the array to a strictly **increasing** sequence in-place without us
 
 ```mermaid
 flowchart TD
-    Start([Start: L = 0, R = 1]) --> Loop{R < N?}
-    Loop -- Yes --> Check{nums[R] != nums[L]?}
-    Check -- Yes --> MoveL[L = L + 1]
-    MoveL --> Write[nums[L] = nums[R]]
-    Write --> IncR[R = R + 1]
+    Start([Start: L = 0, R = 1]) --> Loop{"R < N?"}
+    Loop -- Yes --> Check{"nums[R] != nums[L]?"}
+    Check -- Yes --> MoveL["L = L + 1"]
+    MoveL --> Write["nums[L] = nums[R]"]
+    Write --> IncR["R = R + 1"]
     Check -- No --> IncR
     IncR --> Loop
-    Loop -- No --> Return([Return L + 1])
+    Loop -- No --> Return(["Return L + 1"])
 ```
 
 ---
