@@ -1,5 +1,7 @@
 # Left Rotate Array by K Places
 
+- [LeetCode Problem Link (Right Rotate)](https://leetcode.com/problems/rotate-array/description/)
+
 Rotate a given array to the left by `k` steps.
 
 ---
