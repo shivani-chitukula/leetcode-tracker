@@ -47,8 +47,7 @@ The algorithm uses three pointers: `low`, `mid`, and `high` to partition the arr
 - `nums[mid ... high]`: Unprocessed/unsorted elements.
 - `nums[high+1 ... n-1]`: Contains only `2`s.
 
-```mermaid
-text
+```
 +-----------------------+-----------------------+-----------------------+-----------------------+
 |        All 0s         |        All 1s         |      Unprocessed      |        All 2s         |
 +-----------------------+-----------------------+-----------------------+-----------------------+
