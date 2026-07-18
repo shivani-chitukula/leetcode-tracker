@@ -1,5 +1,7 @@
 # Largest Odd Number in String
 
+🔗 **LeetCode Link**: [1903. Largest Odd Number in String](https://leetcode.com/problems/largest-odd-number-in-string/)
+
 Given a string `num` representing a large integer, return *the largest-valued odd integer (as a string) that is a non-empty substring of `num`, or an empty string `""` if no odd integer exists.*
 
 ---
