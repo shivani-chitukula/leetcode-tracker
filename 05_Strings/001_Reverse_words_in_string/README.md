@@ -35,15 +35,7 @@ In Python, strings are **immutable** sequences of Unicode characters. Once a str
 ### Approach 1: Split & Join (Pythonic Built-in)
 This approach splits the string into a list of words, reverses the list using Python's built-in list reversal, and joins them back with a single space.
 
-```python
-def reverseWords(s: str) -> str:
-    # 1. Split words (removes extra spaces automatically)
-    words = s.split()
-    # 2. Reverse the list of words
-    words.reverse()
-    # 3. Join with a single space
-    return " ".join(words)
-```
+Refer to [001_Reverse_words_in_string.py](file:///c:/Users/chitukula%20shivani/Desktop/leetcode-tracker/05_Strings/001_Reverse_words_in_string/001_Reverse_words_in_string.py) for the implementation.
 
 - **Time Complexity**: $\mathcal{O}(N)$ where $N$ is the length of string `s`. Splitting takes $\mathcal{O}(N)$, reversing takes $\mathcal{O}(W)$ (where $W$ is the number of words), and joining takes $\mathcal{O}(N)$.
 - **Space Complexity**: $\mathcal{O}(N)$ to store the list of words in memory.
@@ -53,22 +45,7 @@ def reverseWords(s: str) -> str:
 ### Approach 2: Split & Two-Pointer Swapping
 This approach splits the string into a list of words first, then uses two pointers (`l` at the start and `r` at the end) to swap elements in-place within the list before joining.
 
-```python
-def reverseWords(s: str) -> str:
-    # 1. Split the string into a list of words
-    words = s.split()
-    
-    # 2. Reversal of the list using two pointers
-    l = 0
-    r = len(words) - 1
-    while l < r:
-        words[l], words[r] = words[r], words[l]
-        l += 1
-        r -= 1
-        
-    # 3. Join the list back to a string
-    return " ".join(words)
-```
+Refer to [001_Reverse_words_in_string.py](file:///c:/Users/chitukula%20shivani/Desktop/leetcode-tracker/05_Strings/001_Reverse_words_in_string/001_Reverse_words_in_string.py) for the implementation.
 
 - **Time Complexity**: $\mathcal{O}(N)$ because we traverse the list of words once to swap them.
 - **Space Complexity**: $\mathcal{O}(N)$ since we must allocate space for the list of words due to Python's string immutability.

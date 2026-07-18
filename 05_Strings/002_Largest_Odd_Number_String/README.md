@@ -24,17 +24,7 @@ To find the **largest-valued** odd substring:
 ## 🛠️ Implementation
 
 ### Greedy Right-to-Left Scan
-```python
-def largestOddNumber(num: str) -> str:
-    n = len(num)
-    # Scan from the rightmost character to the left
-    for i in range(n - 1, -1, -1):
-        # Check if the current digit is odd
-        if int(num[i]) % 2 != 0:
-            return num[:i+1] # Return the prefix up to the odd digit
-            
-    return "" # Return empty string if no odd digit is found
-```
+Refer to [002_Largest_Odd_Number_String.py](file:///c:/Users/chitukula%20shivani/Desktop/leetcode-tracker/05_Strings/002_Largest_Odd_Number_String/002_Largest_Odd_Number_String.py) for the complete implementation.
 
 ### Dry Run Example: `num = "42061"`
 - `i = 4`: `num[4]` is `'1'`. `int('1') % 2 != 0` is `True`.
